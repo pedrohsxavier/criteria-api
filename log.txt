@@ -1,0 +1,43 @@
+[EL Fine]: server: 2019-02-22 14:38:48.96--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2019-02-22 14:38:49.555--ServerSession(1340328248)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Empregado] is set to [FIELD].
+[EL Config]: metadata: 2019-02-22 14:38:49.679--ServerSession(1340328248)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field dep] is being defaulted to: class modelo.Departamento.
+[EL Config]: metadata: 2019-02-22 14:38:49.679--ServerSession(1340328248)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Gerente] is set to [FIELD].
+[EL Config]: metadata: 2019-02-22 14:38:49.679--ServerSession(1340328248)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Vendedor] is set to [FIELD].
+[EL Config]: metadata: 2019-02-22 14:38:49.679--ServerSession(1340328248)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Departamento] is set to [FIELD].
+[EL Config]: metadata: 2019-02-22 14:38:49.695--ServerSession(1340328248)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field empregados] is being defaulted to: class modelo.Empregado.
+[EL Config]: metadata: 2019-02-22 14:38:49.695--ServerSession(1340328248)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field chefe] is being defaulted to: class modelo.Empregado.
+[EL Config]: metadata: 2019-02-22 14:38:49.695--ServerSession(1340328248)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Gerente] is being defaulted to: Gerente.
+[EL Config]: metadata: 2019-02-22 14:38:49.695--ServerSession(1340328248)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Empregado] is being defaulted to: Empregado.
+[EL Config]: metadata: 2019-02-22 14:38:49.711--ServerSession(1340328248)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Empregado] is being defaulted to: EMPREGADO.
+[EL Config]: metadata: 2019-02-22 14:38:49.789--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [salario] is being defaulted to: SALARIO.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The discriminator column name for the root inheritance class [modelo.Empregado] is being defaulted to: DTYPE.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [extra] is being defaulted to: EXTRA.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Vendedor] is being defaulted to: Vendedor.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [comissao] is being defaulted to: COMISSAO.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Departamento] is being defaulted to: Departamento.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Departamento] is being defaulted to: DEPARTAMENTO.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2019-02-22 14:38:49.804--ServerSession(1340328248)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-22 14:38:49.835--ServerSession(1340328248)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field dep] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-22 14:38:49.835--ServerSession(1340328248)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [dep] is being defaulted to: DEP_ID.
+[EL Config]: metadata: 2019-02-22 14:38:49.835--ServerSession(1340328248)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field chefe] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-22 14:38:49.835--ServerSession(1340328248)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [chefe] is being defaulted to: CHEFE_ID.
+[EL Info]: 2019-02-22 14:38:50.586--ServerSession(1340328248)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.3.v20180807-4be1041
+[EL Fine]: connection: 2019-02-22 14:38:50.992--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Config]: connection: 2019-02-22 14:38:51.007--ServerSession(1340328248)--Connection(873610597)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/empresa"
+))
+[EL Config]: connection: 2019-02-22 14:38:51.054--ServerSession(1340328248)--Connection(1497845528)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/empresa
+	User: postgres
+	Database: PostgreSQL  Version: 9.4.1
+	Driver: PostgreSQL Native Driver  Version: PostgreSQL 9.4 JDBC4.1 (build 1206)
+[EL Info]: connection: 2019-02-22 14:38:51.179--ServerSession(1340328248)--Thread(Thread[main,5,main])--/file:/E:/IFPB/P4/POB/Workspace_POB_18.2/SeminarioCriteriaAPI/target/classes/_empresa-eclipselink login successful
+[EL Fine]: sql: 2019-02-22 14:38:51.603--ServerSession(1340328248)--Connection(1497845528)--Thread(Thread[main,5,main])--SELECT ID, NOME, CHEFE_ID FROM DEPARTAMENTO
+[EL Fine]: sql: 2019-02-22 14:38:51.619--ServerSession(1340328248)--Connection(1497845528)--Thread(Thread[main,5,main])--SELECT ID, DTYPE, NOME, SALARIO, DEP_ID, EXTRA, COMISSAO FROM EMPREGADO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2019-02-22 14:38:51.634--ServerSession(1340328248)--Connection(1497845528)--Thread(Thread[main,5,main])--SELECT ID, DTYPE, NOME, SALARIO, DEP_ID, EXTRA, COMISSAO FROM EMPREGADO WHERE (ID = ?)
+	bind => [3]
